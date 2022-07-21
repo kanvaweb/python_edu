@@ -1,19 +1,13 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+largest_number  = -999999999
+number = int(input("Введите число или напишите -1, чтобы остановить программу: "))
+while number != -1:
+    if number > largest_number:
+        largest_number = number
+    number = int(input("Введите число или напишите -1, чтобы остановить программу: "))
+print("Наибольшее число из введённых: ", largest_number)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-print("Hello world")
-print("Вторая строка")
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+pow = 1
+for exp ing range(16):
+    print(f"2 в {exp} степени равно {pow}")
+    pow *= 2
