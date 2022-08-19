@@ -12,3 +12,4 @@ str = t.substitute(userName = "adm",
                 userRights="full",
                 appName="Prog")
 print(str)
+print(str)
